@@ -18,6 +18,14 @@
   "homepage": "https://github.com/rileyjgr/MessageLator#readme",
   "dependencies": {
     "expo": "^31.0.6",
-    "nodemon": "^1.18.7"
+    "express": "^4.16.4",
+    "mongoose": "^5.3.15",
+    "nodemon": "^1.18.7",
+    "path": "^0.12.7",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1",
+    "redis": "^2.8.0",
+    "webpack": "^4.27.1"
   }
 }

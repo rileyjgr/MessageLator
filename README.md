@@ -8,7 +8,6 @@ Google Apis / Google Cloud Platform:
 - Cloud Natural Language Api
 - Cloud Messaging
 
-
 # Databases being Used
 
 - Firebase
