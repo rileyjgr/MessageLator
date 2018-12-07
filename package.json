@@ -1,0 +1,23 @@
+{
+  "name": "messagelator",
+  "version": "1.0.0",
+  "description": "A translator rtc app",
+  "main": "server.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rileyjgr/MessageLator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rileyjgr/MessageLator/issues"
+  },
+  "homepage": "https://github.com/rileyjgr/MessageLator#readme",
+  "dependencies": {
+    "expo": "^31.0.6",
+    "nodemon": "^1.18.7"
+  }
+}
