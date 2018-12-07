@@ -2,9 +2,15 @@
   "name": "messagelator",
   "version": "1.0.0",
   "description": "A translator rtc app",
-  "main": "server.js",
+  "main": "./server/server.js",
   "scripts": {
-    "test": "start"
+    "dev": "webpack -d --watch",
+    "start": "concurrently \"nodemon /server/server.js\" \"webpack -d --watch\"",
+    "build": "webpack -p",
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon /server/server.js",
+    "postinstall": "webpack",
+    "heroku-postbuild": "webpack -p"
   },
   "repository": {
     "type": "git",
@@ -17,6 +23,10 @@
   },
   "homepage": "https://github.com/rileyjgr/MessageLator#readme",
   "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "concurrently": "^4.1.0",
+    "dotenv": "^6.2.0",
     "expo": "^31.0.6",
     "express": "^4.16.4",
     "mongoose": "^5.3.15",
@@ -26,6 +36,7 @@
     "react-dom": "^16.6.3",
     "react-router-dom": "^4.3.1",
     "redis": "^2.8.0",
-    "webpack": "^4.27.1"
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
   }
 }
